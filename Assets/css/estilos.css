@@ -1,0 +1,187 @@
+/* GENERAL */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#FFC679;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+/* HEADER */
+
+header{
+  height: 25vh;
+  background-color: rgb(200, 238, 238);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+}
+
+.logo__container {
+  width: 20%;
+  height: 100%;
+  display: block;
+}
+
+.logo__container img {
+  width: auto;
+  height: 87%;
+}
+
+header nav{
+  width: 100%;
+  background-color: rgb(200, 238, 238);
+  height: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+}
+
+header nav ul{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  padding: 0;
+}
+
+.pestaña{
+  display: inline;
+  word-spacing: ;
+  font-size: small;
+  letter-spacing: normal;
+  white-space: normal;
+  width: 20%;
+}
+
+.pestaña a{
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.fuenteSegoe{
+  font-family: "Segoe UI";
+}
+
+.fuenteArial{
+  font-family: Arial;
+}
+
+
+@media (max-width: 700px) {
+  header{
+    flex-wrap: nowrap;
+  }
+
+  header nav{
+    width: 50%;
+  }
+
+  header nav ul{
+    flex-direction: column;
+  }
+
+  .pestaña{
+    justify-content: space-around;
+  }
+
+}
+
+/* MAIN */
+
+main{
+height: auto;
+display: block;
+}
+
+main .seccion_A{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(100, 200, 0);
+}
+
+.pastafrola{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .seccion_A h1{
+  display: flex;
+  justify-content: center;
+}
+
+.seccion_B{
+  background-color: rgb(200, 200, 30);
+}
+
+.articulo__container{
+  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+/* FOOTER */
+
+footer{
+  height: auto;
+  padding: 20px;
+  background-color: rgb(200, 100, 150);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.redes__container{
+  display: flex;
+  flex-direction: column;
+}
+
+#TW{
+  width: 7%;
+  height: 100%;
+  padding: 1%;
+}
+
+#IG{
+  width: 7%;
+  height: 100%;
+  padding: 1%;
+}
+
+#YT{
+  width: 7%;
+  height: 100%;
+  padding: 1%;
+}
+
+.mapa__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+span{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
